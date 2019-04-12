@@ -25,4 +25,7 @@ file.alterFile = incomingFile => {
     .then( () => true )
     .catch( error => {socket.emit('publish', {evnet: 'err', data :error})
     })
-};
+  };
+
+
+  
